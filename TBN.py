@@ -1,15 +1,14 @@
 # Password Generator
 import random
-# import math
 
-print('Password Generator')
+print('Want a Password?')
 
 chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@$%&*().,'
 
-number = (input('Number of Passwords?'))
+number = (input('Press a number and hit Enter: '))
 number = int(number)
 
-length = input('Character Length?')
+length = input('Character Length? ')
 length = int(length)
 
 print("WAAPAAAA!")
