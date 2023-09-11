@@ -1,8 +1,9 @@
 # Password Generator
 import random
 
+# I was trying to clean it up but for some reason I cant access the name variable from the second function. Any help is appreciated!
+
 CHARS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@$%&*().,'
-global length
 
 def prompt_user():
     while True:
